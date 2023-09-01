@@ -1,0 +1,39 @@
+<script>
+
+    //--------------------------saida--------------------------
+    console.log("hello word!") //saida no console
+    document.write("hello word!") //saida no site
+    
+    //------------------------variaveis------------------------
+    var idade = 26;
+    var outraVariavel = true;
+
+    var nome = "Maria";
+    var nome2 = "Eduarda";
+
+    var nomeFinal = nome = nome2;
+
+    console.log(nome);
+    document.write(idade);
+
+    var frutas = ["maça", "pera", "uva", 10, true, false];
+    console.log(frutas[2]);
+
+    //--------------------lacos de repeticao--------------------
+    for (var i=0; i < 10; ++i) {
+        console.log(i);
+    }
+
+    //--------------------------funcoes--------------------------
+    mostrarNome("Maria"); //declaracao
+
+    function mostrarNome(nome){ //chamar
+        console.log(nome); //imprimir no console
+    }
+
+    //------------------------comparacao------------------------
+    console.log(10 == 10); //true
+    console.log(10 == "10"); //true
+    console.log(10 === "10"); //false
+
+</script>
